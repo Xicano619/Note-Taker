@@ -64,20 +64,6 @@ app.delete("/api/notes/:id", function (req, res) {
       res.json(db);
     });
   });
-//     // filter out the note that I dont want anymore
-//     // let jsonData = db;
-
-//     // let filterJsonData = jsonData.filter(addNote => addNote.id !== req.params.id);
-    
-//     deleteNote(req.param.id);
-//     // re-write the db.json with new filter array
-//     res.json (
-//         {addNote: true}
-//     ); 
-//     // send status to front end, 200. 
-//     return res.json(db);
-//   });
-
 // Starts the server to begin listening
 // =============================================================
 app.listen(PORT, function () {
